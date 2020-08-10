@@ -1,0 +1,21 @@
+{
+    "name": "doCreditCardPaymentAcctReq",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+		"Header": {
+		  "type": "Header"
+		},
+		"BodyReq": {
+		  "type": "doCreditCardPaymentAcctReqBody"
+		}
+	},
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

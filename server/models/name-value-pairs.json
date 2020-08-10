@@ -1,0 +1,21 @@
+{
+    "name": "NameValuePairs",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "Name": {
+        "type": "string"
+      },
+      "Value": {
+        "type": "string"
+      },
+      "id": false 
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }

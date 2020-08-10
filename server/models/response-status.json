@@ -1,0 +1,27 @@
+{
+  "name": "ResponseStatus",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Status": {
+      "type": "string"
+    },
+    "GlobalErrorCode": {
+      "type": "string"
+    },
+    "GlobalErrorDescription": {
+      "type": "string"
+    },
+    "ErrorInfo": {
+      "type": ["ErrorInfo"]
+    },
+    "id": false 
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

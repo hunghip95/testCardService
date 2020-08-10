@@ -1,0 +1,23 @@
+{
+  "name": "Header",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "excludeBaseProperties":["id"],
+  "properties": {
+    "Common": {
+      "type": "Common",
+      "id": false 
+    },
+    "Client": {
+      "type": "Client",
+      "id": false 
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,17 @@
+{
+    "name": "AdditionalInformation",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "NameValuePairs ": {
+        "type": "NameValuePairs"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }

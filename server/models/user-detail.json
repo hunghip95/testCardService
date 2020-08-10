@@ -1,0 +1,24 @@
+{
+    "name": "UserDetail",
+    "base": "Model",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "UserID": {
+        "type": "string"
+      },
+      "UserRole": {
+        "type": "string"
+      },
+      "UserPassword": {
+        "type": "string"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

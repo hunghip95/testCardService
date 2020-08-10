@@ -1,0 +1,21 @@
+{
+    "name": "ErrorInfo",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "ErrorCode": {
+        "type": "string"
+      },
+      "ErrorDesc": {
+        "type": "string"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

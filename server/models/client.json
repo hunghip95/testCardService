@@ -1,0 +1,25 @@
+{
+  "name": "Client",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "SourceAppID": {
+      "type": "string"
+    },
+    "TargetAppIds": {
+      "type": "TargetAppIDs",
+      "id": false 
+    },
+    "UserDetail": {
+      "type": "UserDetail",
+      "id": false 
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

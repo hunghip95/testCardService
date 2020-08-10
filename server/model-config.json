@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Common": {
+    "dataSource": null,
+    "public": false
+  },
+  "Client": {
+    "dataSource": null,
+    "public": false
+  },
+  "Header": {
+    "dataSource": null,
+    "public": false
+  },
+  "InquiryOffersReqBody": {
+    "dataSource": null,
+    "public": false
+  },
+  "InquiryOffersReq": {
+    "dataSource": null,
+    "public": false
+  },
+  "ResponseStatus": {
+    "dataSource": null,
+    "public": false
+  },
+  "offerdetails": {
+    "dataSource": null,
+    "public": false
+  },
+  "offers": {
+    "dataSource": null,
+    "public": false
+  },
+  "InquiryOffersResBody": {
+    "dataSource": null,
+    "public": false
+  },
+  "InquiryOffersRes": {
+    "dataSource": null,
+    "public": false
+  },
+  "NameValuePairs": {
+    "dataSource": null,
+    "public": false
+  },
+  "AdditionalInformation": {
+    "dataSource": null,
+    "public": false
+  },
+  "TargetAppIDs": {
+    "dataSource": null,
+    "public": false
+  },
+  "UserDetail": {
+    "dataSource": null,
+    "public": false
+  },
+  "ErrorInfo": {
+    "dataSource": null,
+    "public": false
+  },
+  "LogMessage": {
+    "dataSource": null,
+    "public": false
+  },
+  "CreditCard": {
+    "dataSource": null,
+    "public": true
+  },
+  "doCreditCardPaymentAcctReqBody": {
+    "dataSource": null,
+    "public": false
+  },
+  "doCreditCardPaymentAcctReq": {
+    "dataSource": null,
+    "public": false
+  },
+  "doCreditCardPaymentAcctRes": {
+    "dataSource": null,
+    "public": false
+  },
+  "doCreditCardPaymentAcctResBody": {
+    "dataSource": null,
+    "public": false
+  },
+  "ExceptionMessage": {
+    "dataSource": null,
+    "public": false
+  },
+  "AuthenDetail": {
+    "dataSource": null,
+    "public": false
+  }
+}

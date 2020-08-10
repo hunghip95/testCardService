@@ -1,0 +1,21 @@
+{
+  "name": "InquiryOffersReq",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Header": {
+      "type": "Header"
+    },
+    "InquiryOffersReqBody": {
+      "type": "InquiryOffersReqBody"
+    },
+    "id": false 
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

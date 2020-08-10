@@ -1,0 +1,30 @@
+{
+    "name": "doCreditCardPaymentAcctReqBody",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+		"DateTime": {
+		  "type": "string"
+		},
+		"Amount": {
+		  "type": "number"
+		},
+		"SourceAccount": {
+		  "type": "string"
+		},
+		"DestinationCard": {
+		  "type": "string"
+		},
+		"CardId": {
+		  "type": "string"
+		}		
+	},
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

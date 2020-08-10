@@ -1,0 +1,19 @@
+{
+    "name": "TargetAppIDs",
+    "base": "Model",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "TargetAppID": {
+        "type": "string"
+      },
+      "id": false 
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

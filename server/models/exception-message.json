@@ -1,0 +1,51 @@
+{
+    "name": "ExceptionMessage",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "MESSAGEID": {
+        "type": "String"
+      },
+      "TRANSACTIONID": {
+        "type": "String"
+      },
+      "MESSAGETIMESTAMP": {
+        "type": "String"
+      },
+      "SERVICENAME": {
+        "type": "String"
+      },
+      "SERVICEVERSION": {
+        "type": "String"
+      },
+      "HOSTNAME": {
+        "type": "String"
+      },
+      "ERRORMSG": {
+        "type": "String"
+      },
+      "ERRORCODE": {
+        "type": "String"
+      },
+      "ERRORDETAILS": {
+        "type": "String"
+      },
+      "DATA": {
+        "type": "String"
+      },
+      "CLIENTIP": {
+        "type": "String"
+      },
+      "LOGTIMESTAMP": {
+        "type": "String"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

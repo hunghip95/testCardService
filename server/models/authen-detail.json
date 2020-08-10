@@ -1,0 +1,17 @@
+{
+    "name": "AuthenDetail",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "UserName": {
+        "type": "String"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }

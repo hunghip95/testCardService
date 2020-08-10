@@ -1,0 +1,69 @@
+{
+    "name": "LogMessage",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "MESSAGEID": {
+        "type": "String"
+      },
+      "TRANSACTIONID": {
+        "type": "String"
+      },
+      "SOURCEID": {
+        "type": "String"
+      },
+      "TARGETID": {
+        "type": "String"
+      },
+      "MESSAGETIMESTAMP": {
+        "type": "String"
+      },
+      "SERVICENAME": {
+        "type": "String"
+      },
+      "OPERATION": {
+        "type": "String"
+      },
+      "SERVICEVERSION": {
+        "type": "String"
+      },
+      "TIMEDURATION": {
+        "type": "String"
+      },
+      "STATUS": {
+        "type": "String"
+      },
+      "ADDITIONALMSG": {
+        "type": "String"
+      },
+      "TRANSACTIONDETAIL": {
+        "type": "String"
+      },
+      "RESPONSESTATUS": {
+        "type": "String"
+      },
+      "ERRORCODE": {
+        "type": "String"
+      },
+      "ERRORMSG": {
+        "type": "String"
+      },
+      "LOGTIMESTAMP": {
+        "type": "String"
+      },
+      "HOSTNAME": {
+        "type": "String"
+      },
+      "CLIENTIP": {
+        "type": "String"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

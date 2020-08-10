@@ -1,0 +1,30 @@
+{
+    "name": "doCreditCardPaymentAcctResBody",
+    "base": "Model",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+		"Status": {
+		  "type": "string"
+		},
+		"ErrorCode": {
+		  "type": "string"
+		},
+		"ErrorDesc": {
+		  "type": "string"
+		},
+		"RefNum": {
+		  "type": "string"
+		},
+		"AuthId": {
+		  "type": "string"
+		}
+	},
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

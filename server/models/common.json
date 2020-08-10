@@ -1,0 +1,31 @@
+{
+  "name": "Common",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ServiceVersion": {
+      "type": "string",
+      "required": "true"
+    },
+    "MessageId": {
+      "type": "string"
+    },
+    "TransactionId": {
+      "type": "string"
+    },
+    "MessageTimestamp": {
+      "type": "string"
+    },
+    "AdditionalInformation": {
+      "type": "AdditionalInformation",
+      "id": false 
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

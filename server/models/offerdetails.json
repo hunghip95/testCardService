@@ -1,0 +1,24 @@
+{
+  "name": "offerdetails",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "offercode": {
+      "type": "string"
+    },
+    "offername": {
+      "type": "string"
+    },
+    "offerdes": {
+      "type": "string"
+    },
+    "id": false 
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
